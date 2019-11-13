@@ -1,6 +1,6 @@
 # GCache
 
-[![wercker status](https://app.wercker.com/status/1471b6c9cbc9ebbd15f8f9fe8f71ac67/m/master "wercker status")](https://app.wercker.com/project/bykey/1471b6c9cbc9ebbd15f8f9fe8f71ac67)[![GoDoc](https://godoc.org/github.com/bluele/gcache?status.png)](https://godoc.org/github.com/bluele/gcache)
+[![wercker status](https://app.wercker.com/status/1471b6c9cbc9ebbd15f8f9fe8f71ac67/m/master "wercker status")](https://app.wercker.com/project/bykey/1471b6c9cbc9ebbd15f8f9fe8f71ac67)[![GoDoc](https://godoc.org/github.com/greyireland/gcache?status.png)](https://godoc.org/github.com/greyireland/gcache)
 
 Cache library for golang. It supports expirable Cache, LFU, LRU and ARC.
 
@@ -17,7 +17,7 @@ Cache library for golang. It supports expirable Cache, LFU, LRU and ARC.
 ## Install
 
 ```
-$ go get github.com/bluele/gcache
+$ go get github.com/greyireland/gcache
 ```
 
 ## Example
@@ -28,7 +28,7 @@ $ go get github.com/bluele/gcache
 package main
 
 import (
-  "github.com/bluele/gcache"
+  "github.com/greyireland/gcache"
   "fmt"
 )
 
@@ -55,7 +55,7 @@ Get: ok
 package main
 
 import (
-  "github.com/bluele/gcache"
+  "github.com/greyireland/gcache"
   "fmt"
   "time"
 )
@@ -92,7 +92,7 @@ panic: ErrKeyNotFound
 package main
 
 import (
-  "github.com/bluele/gcache"
+  "github.com/greyireland/gcache"
   "fmt"
 )
 
@@ -124,7 +124,7 @@ import (
   "fmt"
   "time"
 
-  "github.com/bluele/gcache"
+  "github.com/greyireland/gcache"
 )
 
 func main() {
@@ -311,9 +311,4 @@ added key: 1
 added key: 2
 ```
 
-# Author
 
-**Jun Kimura**
-
-* <http://github.com/bluele>
-* <junkxdev@gmail.com>

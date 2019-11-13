@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/bluele/gcache"
+	"github.com/greyireland/gcache"
 )
 
 func main() {
